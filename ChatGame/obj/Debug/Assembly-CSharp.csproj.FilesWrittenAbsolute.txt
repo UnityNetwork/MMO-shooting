@@ -1,0 +1,12 @@
+/Users/naohiro/Documents/Unity/ChatGame/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/naohiro/Documents/Unity/ChatGame/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/naohiro/Documents/Unity/ChatGame/obj/Debug/Assembly-CSharp.dll
+/Users/naohiro/Documents/Unity/ChatGame/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/naohiro/Documents/Unity/ChatGame/Temp/bin/Debug/UnityEngine.dll
+/Users/naohiro/Documents/Unity/ChatGame/Temp/bin/Debug/UnityEditor.dll
+/Users/naohiro/Documents/Unity/ChatGame/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/naohiro/Documents/Unity/ChatGame/Temp/bin/Debug/Mono.Cecil.dll
+/Users/naohiro/Documents/Unity/ChatGame/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/naohiro/Documents/Unity/ChatGame/Temp/bin/Debug/Unity.DataContract.dll
+/Users/naohiro/Documents/Unity/ChatGame/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/naohiro/Documents/Unity/ChatGame/Temp/bin/Debug/Unity.CecilTools.dll

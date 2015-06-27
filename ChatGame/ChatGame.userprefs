@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Bullet.cs">
+    <Files>
+      <File FileName="Assets/Chat.cs" Line="2" Column="2" />
+      <File FileName="Assets/NetworkViewManager.cs" Line="19" Column="19" />
+      <File FileName="Assets/Contoroller.cs" Line="1" Column="1" />
+      <File FileName="Assets/Bullet.cs" Line="4" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
