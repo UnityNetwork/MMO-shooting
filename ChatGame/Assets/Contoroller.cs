@@ -17,7 +17,7 @@ public class Contoroller : Mover {
 		}
 
 		if (isMine) {
-			Vector3 v = new Vector3 (Input.GetAxis ("Horizontal"), Input.GetAxis ("Vertical"), 0);
+			Vector3 v = new Vector3 (Input.GetAxis ("Horizontal"), 0 ,Input.GetAxis ("Vertical"));
 			transform.Translate (v);
 			if (Input.GetKeyDown (KeyCode.Space)) {
 				int rad = 360 / 10;
