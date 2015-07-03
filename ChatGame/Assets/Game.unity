@@ -353,7 +353,7 @@ GameObject:
   - 148: {fileID: 541500619}
   - 114: {fileID: 541500618}
   m_Layer: 0
-  m_Name: me
+  m_Name: omura
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -378,7 +378,7 @@ MonoBehaviour:
   velocity: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 0}
   owner: {fileID: 0}
-  isMine: 1
+  isMine: 0
 --- !u!148 &541500619
 NetworkView:
   m_ObjectHideFlags: 0
@@ -653,7 +653,7 @@ GameObject:
   - 148: {fileID: 943836852}
   - 114: {fileID: 943836851}
   m_Layer: 0
-  m_Name: doya
+  m_Name: douya
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -678,7 +678,7 @@ MonoBehaviour:
   velocity: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 0}
   owner: {fileID: 0}
-  isMine: 0
+  isMine: 1
 --- !u!148 &943836852
 NetworkView:
   m_ObjectHideFlags: 0

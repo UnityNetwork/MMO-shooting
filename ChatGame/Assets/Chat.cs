@@ -6,7 +6,7 @@ public class Chat : MonoBehaviour {
 
 	private List<string> messages = new List<string> ();
 	private string inputMessage = "";
-	private string name = "nomura";
+	private string name = "do-8";
 
 	void OnGUI () {
 
