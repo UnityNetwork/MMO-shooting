@@ -5,7 +5,8 @@ public class NetworkViewManager : MonoBehaviour {
 
 	public static bool connected = false;
 
-	private string connectionIP = "IP address at that time";
+	//IP address at that time
+	private string connectionIP = "10.25.32.252";
 	private int portNumber = 8080;
 
 	void OnGUI () {
