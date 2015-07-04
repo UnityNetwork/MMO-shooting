@@ -1,10 +1,11 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/CameraControl.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Contoroller.cs">
     <Files>
-      <File FileName="Assets/Mover.cs" Line="1" Column="1" />
-      <File FileName="Assets/Contoroller.cs" Line="12" Column="3" />
-      <File FileName="Assets/CameraControl.cs" Line="20" Column="1" />
+      <File FileName="Assets/NetworkViewManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Contoroller.cs" Line="15" Column="39" />
+      <File FileName="Assets/Chat.cs" Line="8" Column="35" />
+      <File FileName="Assets/Mover.cs" Line="50" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

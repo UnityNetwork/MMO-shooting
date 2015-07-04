@@ -28,11 +28,16 @@ public class Contoroller : Mover {
 				}
 			}
 			GetComponent <NetworkView> ().RPC ("MovePlayer", RPCMode.Others, transform.position);
+			GetComponent <NetworkView> ().RPC ("MoveBullet", RPCMode.Others, transform.position);
 		}
 	}
 
 	[RPC]
 	public void MovePlayer (Vector3 position) {
+		transform.position = position;
+	}
+    [RPC]
+	public void MoveBullet (Vector3 position) {
 		transform.position = position;
 	}
 }
