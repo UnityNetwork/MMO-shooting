@@ -1,11 +1,10 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../../Siran/Assets/Script/CreditScene/BlackCurtain00.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/CameraControl.cs">
     <Files>
-      <File FileName="../../Siran/Assets/Script/CreditScene/BlackCurtain00.cs" Line="10" Column="14" />
-      <File FileName="../../Siran/Assets/Script/Opening/BlackCurtain.cs" Line="29" Column="3" />
-      <File FileName="../../Siran/Assets/Script/Opening/StageState.cs" Line="41" Column="3" />
-      <File FileName="../../Siran/Assets/Script/CreditScene/SceanManager00.cs" Line="4" Column="19" />
+      <File FileName="Assets/Mover.cs" Line="1" Column="1" />
+      <File FileName="Assets/Contoroller.cs" Line="12" Column="3" />
+      <File FileName="Assets/CameraControl.cs" Line="20" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

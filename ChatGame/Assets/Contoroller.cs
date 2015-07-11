@@ -25,7 +25,6 @@ public class Contoroller : Mover {
 					Vector3 vel = new Vector3(Mathf.Cos(Radians(i)),0, Mathf.Sin(Radians(i))) * 0.2f;
 					GameObject b = (GameObject)Network.Instantiate (bullet, transform.position, bullet.transform.rotation, 1);
 					b.GetComponent<Bullet> ().Init (vel);
-					b.GetComponent <NetworkView> ().RPC ("MoveBullet", RPCMode.All);
 				}
 			}
 			GetComponent <NetworkView> ().RPC ("MovePlayer", RPCMode.Others, transform.position);
@@ -35,9 +34,5 @@ public class Contoroller : Mover {
 	[RPC]
 	public void MovePlayer (Vector3 position) {
 		transform.position = position;
-	}
-    [RPC]
-	public void MoveBullet () {
-		Network.Instantiate (bullet, transform.position, bullet.transform.rotation,1);
 	}
 }

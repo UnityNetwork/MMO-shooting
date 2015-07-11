@@ -9,25 +9,16 @@ public class Bullet : MonoBehaviour {
 		vec = v;
 	}
 
-	private NetworkView view;
-
 	void Start () {
-		//view = GetComponent<NetworkView> ();
+	
 	}
 	
 	void Update () {
 		transform.position += vec;
-
-		//view.RPC ("MoveBullet",RPCMode.Others,transform.position);
 
 		count++;
 		if (count > 120) {
 			Destroy (gameObject);
 		}
 	}
-
-	/*[RPC]
-	public void MovePlayer (Vector3 position) {
-		transform.position = position;
-    }*/
 }
