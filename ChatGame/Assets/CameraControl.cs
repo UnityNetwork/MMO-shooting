@@ -2,18 +2,25 @@
 using System.Collections;
 
 public class CameraControl : MonoBehaviour {
-	
-	public GameObject mine;
-	
+
+	GameObject n, d, o, m, myObj;
+
 	private float pos_y = 10;
 
-	// Use this for initialization
 	void Start () {
-
+		n = GameObject.Find ("omura");
+		d = GameObject.Find ("douya");
+		o = GameObject.Find ("ohata");
+		m = GameObject.Find ("miura");
+		myObj = n.GetComponent<Contoroller> ().isMine ? n.gameObject:
+			d.GetComponent<Contoroller> ().isMine ? n.gameObject:
+			o.GetComponent<Contoroller> ().isMine ? n.gameObject:
+			m.GetComponent<Contoroller> ().isMine ? n.gameObject:null;
 	}
 	
-	// Update is called once per frame
 	void Update () {
-		transform.position = new Vector3 (mine.transform.position.x, pos_y, mine.transform.position.z);
+		if (myObj) {
+			transform.position = new Vector3 (myObj.transform.position.x, pos_y, myObj.transform.position.z);
+		}
 	}
 }

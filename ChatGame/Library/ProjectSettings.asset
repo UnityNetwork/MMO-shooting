@@ -116,7 +116,7 @@ PlayerSettings:
   iOSLaunchScreenLandscape: {fileID: 0}
   iOSLaunchScreenBackgroundColor:
     serializedVersion: 2
-    rgba: 35
+    rgba: 0
   iOSLaunchScreenFillPct: 1
   iOSLaunchScreenCustomXibPath: 
   AndroidTargetDevice: 0
@@ -194,7 +194,7 @@ PlayerSettings:
   ps4ApplicationParam2: 0
   ps4ApplicationParam3: 0
   ps4ApplicationParam4: 0
-  ps4Passcode: CLBRgCMctepg8s8lI2SFhRDgsmU1UGWy
+  ps4Passcode: HqdoLwBAQDnc9pC0YTod3yCCER3gqFev
   ps4pnSessions: 1
   ps4pnPresence: 1
   ps4pnFriends: 1
@@ -376,7 +376,9 @@ PlayerSettings:
   iOS::ScriptingBackend: 0
   boolPropertyNames:
   - WebGL::dataCaching
+  - XboxOne::enus
   WebGL::dataCaching: 0
+  XboxOne::enus: 1
   stringPropertyNames:
   - WebGL::emscriptenArgs
   - WebGL::template

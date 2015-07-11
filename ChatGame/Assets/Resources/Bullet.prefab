@@ -12,7 +12,8 @@ GameObject:
   - 135: {fileID: 13540046}
   - 23: {fileID: 2385610}
   - 114: {fileID: 11484140}
-  - 148: {fileID: 14814642}
+  - 148: {fileID: 14842920}
+  - 54: {fileID: 5446362}
   m_Layer: 0
   m_Name: Bullet
   m_TagString: Untagged
@@ -63,6 +64,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 146136}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &5446362
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 146136}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &11484140
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -74,6 +90,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 166584e33b374458ab581a869f74cc98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hp: 1
+  count: 0
+  frame: 0
+  pos: {x: 0, y: 0, z: 0}
+  prevPos: {x: 0, y: 0, z: 0}
+  velocity: {x: 0, y: 0, z: 0}
+  rotation: {x: 0, y: 0, z: 0, w: 0}
+  owner: {fileID: 0}
 --- !u!135 &13540046
 SphereCollider:
   m_ObjectHideFlags: 1
@@ -81,12 +105,12 @@ SphereCollider:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 146136}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: .5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!148 &14814642
+--- !u!148 &14842920
 NetworkView:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}

@@ -1,11 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Bullet : MonoBehaviour {
+public class Bullet : Mover {
 
 	int count = 0;
 	Vector3 vec;
-	public void Init (Vector3 v) {
+	public void Init (GameObject g, Vector3 v) {
+		owner = g;
 		vec = v;
 	}
 
@@ -20,5 +21,11 @@ public class Bullet : MonoBehaviour {
 		if (count > 120) {
 			Destroy (gameObject);
 		}
+		GetComponent <NetworkView> ().RPC ("MovePlayer", RPCMode.Others, transform.position);
+	}
+
+	[RPC]
+	public void MovePlayer (Vector3 position) {
+		transform.position = position;
 	}
 }
